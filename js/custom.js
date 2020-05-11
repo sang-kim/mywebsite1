@@ -1,5 +1,9 @@
 $(document).ready(function(){ 
 
+	// Stop carousel //
+    $('.carousel').carousel('pause');
+
+    // dark mode //
 	let dark = localStorage.getItem('dark');
 
 	const darkToggle = document.querySelector('#checkbox');

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Sang Kim </title>
+    
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <!-- custom css that overrides bootstrap css -->
+    <link rel="stylesheet" href="css/custom.css"> 
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 800px)" href="css/mobile.css">
+  </head>
+  <body>
+    <!-- GRID -->
+
+    <!-- container that will hold the grid -->
+    <div class="container-fluid">
+
+      <div class="row">
+        <!--div for menu bar-->
+        <div class="col-md-2 menu">
+          <nav id="nav" class="navbar navbar-template">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#Home"><img class="icon" src="images/home.svg" style="height: 17.5px"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Projects"> About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#AboutMe"> Interests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link resume" href="files/resume.pdf" target=_blank> Resume </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="files/portfolio.pdf" target=_blank> Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/sangkim/" target=_blank> LinkedIn </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" target=_blank> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mailto:swk316@nyu.edu" target=_blank> <img class="icon" src="images/email.svg" style="height: 10px"> sang.kim@nyu.edu </a>
+                <a class="nav-link" href="#"> <img class="icon" src="images/phone.svg" style="height: 10px"> (770) 375-6560 </a> </a>
+              </li>
+              <li class="nav-item">
+                <div class="nightmode">
+                  <input type="checkbox" class="checkbox" id="checkbox">
+                  <label for="checkbox" class="label">
+                    <img class="moon" src="images/dark.svg">
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!--div for site contents-->
+        <div class="col-md-10 body">
+          
+          <!--row 1-->
+          <div class="row">
+            <section class="scrollspy" id="Home">
+             <div class="jumbotron jumbotron-fluid1">
+                <div class="container">
+                  <h1 class="display-4"> Welcome to my website!  </h1>
+                  <p class="lead"> </p>
+                </div>
+              </div>
+            </section>
+            <div class="col-md-12 carousel_div">
+              <div id="carousel1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel1" data-slide-to="1"></li>
+                  <li data-target="#carousel1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/me.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>I'm Sang. I'm a senior at NYU studying Mechanical Engineering. I am passionate about consumer product design, humanitarian design, and sustainability. </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/atlanta.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> I was born in Busan, Korea. I've lived in Guam and Oakland for a short time before moving to Atlanta, GA at the age of 6 where I was raised.  </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/nyc.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> I moved to NYC in 2016 to study Engineering at New York University. I will be graduating in May 2020. Some of my accomplishments include Dean's List 2018-2020 and receiving the Dr. Morris Young Outstanding Project Design Award. </p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--row with about me info-->
+          <div class="row">
+            <section class="scrollspy" id="Projects">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4"> About Me
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 samples">
+              <p> My Experience </p>
+            </div>
+          </div>
+
+
+          <!--school-->
+          <div class="row">
+            <div class="col-md-12 education_div">
+              <div class="media">
+                <img src="aboutImages/nyulogo.jpg" style="height: 75px" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">New York University (Fall 2016 - Spring 2020)</h5>
+                  <p>I will be graduating in May 2020 with a BS in Mechanical Engineering. While at NYU I was involved in Othmer Hall Council, NYU Welcome Week, and Society of Asian Scientists and Engineers. While at NYU, I found my passion for design engineering and product design. Through peers, professors, and projects, I uncovered my strengths and weaknesses and found a career path I wanted to work in. I found fullfillment in working hard and making an impact; wanting to make peoples' lives easier and the world a better place motivated me to pursue an engineering career in consumer product design, specifically in sustainbility or humanitarian design. My proudest accomplishment is graduating as a first generation college student. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--woomba-->
+          <div class="row">
+            <div class="col-md-12 education_div">
+              <div class="media"> 
+                <img src="aboutImages/woombalogo.jpeg" style="height: 60px" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">WOOMBA (Fall 2019 - Spring 2020) | Dr. Morris Young Outstanding Design Project Award </h5>
+                  <p> WOOMBA is an aquatic partial submersion remotely operated vehicle (ROV) tasked with removing surface trash/pollutants from still bodies of water. With a budget of $1500, I worked with a team of 5 other Mechanical Engineering students to conceptualize and design the WOOMBA. I worked on the framework of the WOOMBA and prototyped parts and assemblies in SolidWorks. Over a 6 month period, I produced over 5 different iterations while working with my team members to create an optimal design. Working with weight (handling and transport), size (manufacturing restrictions), and price constraints (effect on design based on material strength/properties), I modeled a complete assembly of the WOOMBA with designed parts, multiple sub-assemblies, and technical drawings. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- dibner it-->
+          <div class="row">
+            <div class="col-md-12 education_div">
+              <div class="media">
+                <img src="aboutImages/nyulogo.jpg" style="height: 75px" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">The Parking Lot Project (Fall 2018 - Spring 2020) | NYU IT Division Dean's Award</h5>
+                  <p> The Parking Lot Project was proposed by a group of student workers who worked as part of the Dibner Library IT Staff. The purpose of the project is to help students find open study spaces at the library quickly before even entering the building. The system is a live human detection system that utilizes Ultrasonic Range Sensors to detect whether a seat is occupied or empty. The results update in real-time and is displayed on a UI available to students connected to an NYU network. I worked with software and hardware engineers to design housing units for the sensors, Raspberry Pi's, and circuit boards. I iteratively designed over 6 different cases in SolidWorks and utilized the NYU MakerSpace to 3D print and test fit, installtion, ease of installation, ease of maintenance, and tampering. The Parking Lot Project is currently live, and over 500 housing units for hardware are actively in deployment. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MakerBot -->
+          <div class="row">
+            <div class="col-md-12 education_div">
+              <div class="media">
+                <img src="aboutImages/makerbotlogo.jpg" style="height: 75px" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">MakerBot Industries (Fall 2019)</h5>
+                  <p> I worked at MakerBot as a part-time intern on the Test Engineering Team. I helped maintain a testing jig (UTJ) - a broken down MakerBot Printer with extra sensors and a data acquisition system - and helped to improve a LabVIEW program to automate testing. Using the UTJ, I tested over 20 different plastics, acquired testing data, and processed data into visual graphs using R. Throughout the internship, I developed a portfolio of material testing data that other Test Engineers used to tune foreign materials in Method/MethodX printers. The testing team operated like a startup, and the work environment was very fast-paced and teamwork based. This forced me to learn processes and skills very quickly, as being adaptable was a key trait in being successful. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- aero-->
+          <div class="row">
+            <div class="col-md-12 education_div">
+              <div class="media">
+                <img src="aboutImages/saelogo.jpeg" style="height: 75px" class="align-self-start mr-3" alt="...">
+                <div class="media-body">
+                  <h5 class="mt-0">NYU SAE Aero (Fall 2018 - Spring 2019) </h5>
+                  <p> The Society of Automative Engineers Aero Design competition is held every year and requires students to design and build an aircraft from scratch while meeting specific mission and design criteria. I worked with a team of 4 other students to create a fully operable, electric powered, 12 ft wingspan aircraft with two secondary autonomous gliders. I designed the wings and tail of the aircraft using SolidWorks; throughout the design process, I researched optimal airfoils, tail configurations, manufacturing options, and wing planforms. I worked to continously improve the designs by adding a mechanism to allow the tail/empennage to be removed for easier transport, and decreased the moment from the tail to increase stability of the aircraft. Our aircraft was test flown 3 different times, and was unsuccessful in flight all 3 times due to inclement weather. However, between each test flight, we redesigned and rebuilt the aircraft to improve the structural strength. Although we were unable to compete, the skills and takeaways from the project were much more valuable than competing. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 space_row">
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 samples">
+              <p> Here are some samples of my work.</p>
+            </div>
+          </div>
+
+          <!-- carousel row-->
+          <div class="row">
+            <div class="col-md-12 carousel_div">
+              <div id="carousel2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel2" data-slide-to="1"></li>
+                  <li data-target="#carousel2" data-slide-to="2"></li>
+                  <li data-target="#carousel2" data-slide-to="3"></li>
+                  <li data-target="#carousel2" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="aboutImages/woomba.jpg" class="d-block w-100" alt="...">
+                    <div id="whiteback" class="carousel-caption d-none d-md-block">
+                      <p> WOOMBA (2020)</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/aero.jpg" class="d-block w-100" alt="...">
+                    <div id="whiteback" class="carousel-caption d-none d-md-block">
+                      <p> NYU SAE Aero Advanced (2018-2019) </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/sensorCases.jpg" class="d-block w-100" alt="...">
+                    <div id="whiteback" class="carousel-caption d-none d-md-block">
+                      <p> The Parking Lot Project (2017-2019)</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/r2d2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> R2D2 (2019) </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/robotCrane.PNG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> Robotic Crane Arm (2017) </p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 project_footer">
+              <p> All models created in SolidWorks. Rendered in KeyShot 8.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 space_row">
+              
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 samples">
+              <p> A closer look at WOOMBA.</p>
+            </div>
+          </div>
+
+          <!-- carousel row-->
+          <div class="row">
+            <div class="col-md-10 carousel_div">
+              <div id="carousel2-1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel2-1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel2-1" data-slide-to="1"></li>
+                  <li data-target="#carousel2-1" data-slide-to="2"></li>
+                  <li data-target="#carousel2-1" data-slide-to="3"></li>
+                  <li data-target="#carousel2-1" data-slide-to="4"></li>
+                  <li data-target="#carousel2-1" data-slide-to="5"></li>
+                  <li data-target="#carousel2-1" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="aboutImages/woombadrawing1.png" class="d-block w-100" alt="...">
+                    <div id="whiteback" class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/woombadrawing2.png" class="d-block w-100" alt="...">
+                    <div id="whiteback" class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/woombadrawing3.png" class="d-block w-100" alt="...">
+                    <div id="whiteback" class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/woombadrawing4.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/1_iso.PNG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> WOOMBA Version 1 </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/2_iso.PNG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> WOOMBA Version 2 </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aboutImages/3_iso.PNG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> WOOMBA Version 3 </p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel2-1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel2-1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2"></div>
+            </div>
+          </div>
+
+          <!-- interest section -->
+          <div class="row">
+            <section class="scrollspy" id="AboutMe">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4"> Interests </h1>
+                  <p class="lead"> In my freetime, I enjoy learning new things, listening to music, driving, cooking, watching movies, working out, and spending time with friends and family. </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 carousel_div">
+              <div id="carousel3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel3" data-slide-to="1"></li>
+                  <li data-target="#carousel3" data-slide-to="2"></li>
+                  <li data-target="#carousel3" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="interestImages/webdesign.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> Currently: I am learning web development and actively searching for full-time jobs in Mechanical/Design Engineering. </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="interestImages/tt.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> One of my favorite hobbies is table tennis. </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="interestImages/kendricklamar.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> My favorite musical artist: Kendrick Lamar </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="interestImages/greenbook.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p> My favorite recent movie: Green Book </p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div> <!--end row-->
+
+        </div> <!-- col-md-10 end -->
+      
+      </div> <!-- row that contains 2 and 10 column-->
+
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6 siteFooter">
+          <p> Created by Sang Kim. All images from Google. All icons from Materials.io. WOOMBA logo created by Fiona Kelly.</p>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+
+    </div> <!--container fluid-->
+
+
+
+  <!-- jquery slim -->
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+    
+  <!-- popper js -->
+  <script src="js/popper.min.js"> </script>
+  
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.min.js"> </script>
+
+  <!--custom js-->  
+  <script type="text/javascript" src="js/custom.js"></script>
+
+  </body>
+</html>
+
+

@@ -1,5 +1,9 @@
 $(document).ready(function(){ 
 
+	$("#Carousel1"). carousel('pause');
+	$("#Carousel2"). carousel('pause');
+	$("#Carousel2-1"). carousel('pause');
+	$("#Carousel3"). carousel('pause');
 
     // dark mode //
 	let dark = localStorage.getItem('dark');

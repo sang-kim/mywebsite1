@@ -1,5 +1,7 @@
 $(document).ready(function(){ 
 
+	
+	
 	$("#Carousel1"). carousel('pause');
 	$("#Carousel2"). carousel('pause');
 	$("#Carousel2-1"). carousel('pause');

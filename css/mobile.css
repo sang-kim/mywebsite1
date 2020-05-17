@@ -4,5 +4,13 @@
 
 .navbar-template{
 	position: relative;
+}
 
+
+.aboutme p{
+	width: 100%;
+}
+
+.media{
+	width: 100%;
 }

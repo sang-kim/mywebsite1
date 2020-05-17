@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <title> Sang Kim </title>
     
+   
+
     <!-- bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
+
     <!-- custom css that overrides bootstrap css -->
     <link rel="stylesheet" href="css/custom.css"> 
+    
     <!-- Media query for narrow browser width -->
     <link rel="stylesheet" media="only screen and (max-width: 800px)" href="css/mobile.css">
+
   </head>
   <body>
     <!-- GRID -->
@@ -19,7 +24,7 @@
 
       <div class="row">
         <!--div for menu bar-->
-        <div class="col-md-2 menu">
+        <div class="col-md-3 menu">
           <nav id="nav" class="navbar navbar-template">
             <ul class="nav flex-column">
               <li class="nav-item">
@@ -60,7 +65,7 @@
         </div>
 
         <!--div for site contents-->
-        <div class="col-md-10 body">
+        <div class="col-md-9 body">
           
           <!--row 1-->
           <div class="row">
@@ -106,6 +111,10 @@
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-12 space_row_1"></div>
+          </div>  
+
           <!--row with about me info-->
           <div class="row">
             <section class="scrollspy" id="Projects">
@@ -118,11 +127,14 @@
           </div>
 
           <div class="row">
-            <div class="col-md-12 samples">
-              <p> My Experience </p>
+            <div class="col-md-12 aboutme">
+              <p> I grew up in Buford, GA just outside Atlanta. There, I discovered my interest in engineering and designing. While at NYU, I found my motivation for why I wanted to continue being an engineer - I want to improve the quality of everyday life for those who are less fortunate and make everyday life easier for those whose lives are difficult. I learned how to use SolidWorks as a first-year, and throughout my four years at NYU, I fell in love with the design and prototyping process; I loved working in teams and creating something from conceptualization. As an engineer, it's my goal to improve quality of life, whether that's cleaning the oceans, building solar powered homes, or creating a life-saving technology. I wish to help those around me through innovation and creative design.  </p>
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-12 space_row_2"></div>
+          </div> 
 
           <!--school-->
           <div class="row">
@@ -190,7 +202,7 @@
           </div>
 
           <div class="row">
-            <div class="col-md-12 space_row">
+            <div class="col-md-12 space_row_2">
               
             </div>
           </div>
@@ -345,69 +357,105 @@
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-12 space_row_1"></div>
+          </div>  
+
           <!-- interest section -->
           <div class="row">
             <section class="scrollspy" id="AboutMe">
               <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                   <h1 class="display-4"> Interests </h1>
-                  <p class="lead"> In my freetime, I enjoy learning new things, listening to music, driving, cooking, watching movies, working out, and spending time with friends and family. </p>
                 </div>
               </div>
             </section>
           </div>
 
           <div class="row">
-            <div class="col-md-12 carousel_div">
-              <div id="carousel3" class="carousel slide" >
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel3" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel3" data-slide-to="1"></li>
-                  <li data-target="#carousel3" data-slide-to="2"></li>
-                  <li data-target="#carousel3" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="interestImages/webdesign.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p> Currently: I am learning web development and actively searching for full-time jobs in Mechanical/Design Engineering. </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="interestImages/tt.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p> One of my favorite hobbies is table tennis. </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="interestImages/kendricklamar.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p> My favorite musical artist: Kendrick Lamar </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="interestImages/greenbook.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p> My favorite recent movie: Green Book </p>
-                    </div>
-                  </div>
+            <div class="col-md-12 aboutme">
+              <p> In my freetime, I enjoy learning new things, listening to music, driving, cooking, watching movies, working out, and spending time with friends and family.  </p>
+            </div>
+          </div>
+
+          <div class="interest_container">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="interestImages/cjlee.jpg" alt="Avatar">
                 </div>
-                <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                <div class="flip-card-back">
+                  <h1> Photography </h1>
+                  <p> I enjoy taking pictures for fun, whether it's on my phone or with a borrowed camera. </p>
+                </div>
               </div>
             </div>
-          </div> <!--end row-->
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="interestImages/bkbridge.jpg" alt="Avatar">
+                </div>
+                <div class="flip-card-back">
+                  <h1> Exploring</h1>
+                  <p> Whenever I have the chance, I love going out and exploring. I love driving around or just taking the train to a random destination. </p>            
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="interestImages/nayambo.jpg" alt="Avatar">
+                </div>
+                <div class="flip-card-back">
+                  <h1> Friends/Family </h1>
+                  <p> I spend a lot of time with friends and family whenever I can. I enjoy playing table tennis, going out for a meal, or just playing games.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="interestImages/bkbridge2.jpg" alt="Avatar">
+                </div>
+                <div class="flip-card-back">
+                  <h1> Movies/Shows </h1>
+                  <p> My favorite recent movie is Greenbook (2018), but one of my all time favorites is The Intouchables (2011).</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="interestImages/ashish_vr.jpeg" alt="Avatar">
+                </div>
+                <div class="flip-card-back">
+                  <h1> Tech </h1>
+                  <p> I enjoy learning about new technologies from new Apple products to having fun on VR. </p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="interestImages/montauk.jpeg" alt="Avatar">
+                </div>
+                <div class="flip-card-back">
+                  <h1> Music </h1>
+                  <p> I love listening to music whenever I have the chance. I like all types of music. My favorite artist is Kendrick Lamar, but I love many artists.</p>
+                </div>
+              </div>
+            </div>
+          </div> <!--end card div container-->
 
         </div> <!-- col-md-10 end -->
       
       </div> <!-- row that contains 2 and 10 column-->
 
+
+      <div class="row">
+        <div class="col-md-12 space_row_1"></div>
+      </div>  
+      
       <div class="row">
         <div class="col-md-3">
         </div>
@@ -419,8 +467,6 @@
       </div>
 
     </div> <!--container fluid-->
-
-
 
   <!-- jquery slim -->
   <script src="js/jquery-3.4.1.slim.min.js"></script>

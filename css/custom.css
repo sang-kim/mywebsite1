@@ -180,10 +180,7 @@ body.dark p{
 	font-size: 12px;
 	font-weight: 300;
 }
-.siteFooter{
-	padding-top: 50px;
-	font-size: 10px;
-}
+
 .education_div{
 	/* border: 1px solid black; */
 	height: auto;
@@ -299,6 +296,10 @@ body.dark p{
 }
 .project_footer p{
 	font-size: 10px;
+}
+.siteFooter p{
+	font-size: 10px;
+	text-align: center;
 }
 
 a:link, a:visited, a:visited:hover{
